@@ -1,2 +1,2 @@
 # komaraip.github.io
- Portofolio Website
+ Bio Link Website
