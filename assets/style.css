@@ -34,12 +34,14 @@ img {
     overflow: hidden;
     border-radius: 50%;
     border: 3px solid var(--white);
+    margin-bottom: 2rem;
 }
 
 .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 4rem;
 }
 
 .hero span:nth-child(2) {
@@ -98,7 +100,19 @@ img {
     border-radius: 1.1rem;
 }
 
+.item-wrap img{
+    width: 30px;
+}
+
 @media (width <= 468px) {
+    .hero span:nth-child(2) {
+        font-size: 27px;
+    }
+    
+    .hero span:nth-child(3) {
+        font-size: 22px;
+    }
+    
     .links, .hero {
         width: 100%;
         padding: 0 1rem;
